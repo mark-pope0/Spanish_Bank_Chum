@@ -1,0 +1,26 @@
+If you want to get updated data, here's where we got it:
+
+- Columns B - G: bug counts
+	I had to write a scraper to get this off pskf.ca, and even then, I couldn't get 
+	everything. It was a royal pain in the ass, let me tell ya. See bugsGet.m.
+- Columns H - K: weather & tides
+	Weather came from the Environment Canada API, which is great. See weatherGet.m.
+	Tides came from the DFO API, which is unusable garbage. Had to be downloaded 
+	manually.
+- Column L: Spanish chum returns
+	The Scarths have this.
+- Column M: Spanish chum fry releases
+	We got this from Sandie Hollick-Kenyon at DFO, but she's apparently retiring 
+	soon, so you'll need to get it from her successor, Brian Smith.
+- Columns N - P: Indian & Kanaka chum returns
+	Also from DFO; Sandie, now Brian.
+- Columns Q - V: Capilano returns
+	This is from Hamid Seshadri of the Capilano Hatchery. He's also got a lot of 
+	other data on coded-wire tagging & the like, but that wasn't particularly 
+	relevant to Spanish, so we omitted it.
+Column W: Number of improved estuaries in West Van
+	Got this from John Barker of the West Van Streamkeepers.
+- Final columns: West Van returns (omitted)
+	As I mentioned in README.txt, John is rightfully cautious about people using his 
+	data. He's super helpful though, so just shoot him an email & he'll be glad to 
+	share it with you.
