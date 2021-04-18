@@ -29,7 +29,7 @@ four sections:
 	
 4: Figures
 	In the event that you don't want to re-generate all the figures, here are the 
-	ones that were used in the report.
+	ones that were used in the report, plus some extras.
 	
 All the data we received is here, with one exception: West Van's returns. John 
 Barker is super helpful & will give you the data if you ask, but he doesn't like it 
