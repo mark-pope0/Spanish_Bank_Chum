@@ -1,6 +1,6 @@
-Hello! Contained in this folder are a number of files, both code and data, related 
-to the analysis of chum returns to Spanish Bank Creek. They are divided into three 
-sections.
+Hello! Contained in this folder are a number of files -- code, data, and figures -- 
+related to the analysis of chum returns to Spanish Bank Creek. They are divided into 
+four sections:
 
 1: The core data & analysis
 	This is all written in Matlab, and is the stuff that I actually used to do the 
@@ -26,6 +26,10 @@ sections.
 3: The .csv core data
 	This is all the core data, but encoded in .csv format for your non-proprietary 
 	convenience! SOURCES.txt refers to the columns in this file.
+	
+4: Figures
+	In the event that you don't want to re-generate all the figures, here are the 
+	ones that were used in the report.
 	
 All the data we received is here, with one exception: West Van's returns. John 
 Barker is super helpful & will give you the data if you ask, but he doesn't like it 
