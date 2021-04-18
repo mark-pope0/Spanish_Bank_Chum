@@ -48,7 +48,7 @@ xlabel('mean weight at release (g)')
 ylabel('returns (individuals)')
     legend('off')
 
-%% Spanish returns & bug counts
+%% Spanish returns & bug counts (just 3)
 clear
 close all
 colours = parula(8);
@@ -117,7 +117,7 @@ title(["";"daily maximum"])
 xlabel('air temperature (°C)')
 ylabel('water temperature (°C)')
 
-%% Indian-Spanish & Kanaka-Spanish correlations
+%% Indian - Spanish & Kanaka - Spanish correlations
 clear
 close all
 colours = parula(8);
@@ -137,8 +137,39 @@ xlabel('Kanaka returns, four years offset (thousands)')
 ylabel('Spanish returns (individuals)')
     legend('off')
 
+%% bug counts (all 6) - Spanish correlations
+clear
+close all
+colours = parula(12);
+load dataCompiled returnsSpanish dataBugs fieldsBugs
+labelX = [150, 1100, 16.5, 6.5, 0.15, 0.2];
+figure(1)
+    clf
+for iP = 1:6
+    subplot(3,2,iP)
+    scatterCC(dataBugs(:,iP),returnsSpanish,colours(iP+1,:), labelX(iP), 45)
+    title("")
+    xlabel(fieldsBugs(iP))
+    ylabel('Spanish chum returns')
+end
 
-
+%% weather - Spanish correlations
+clear
+close all
+colours = parula(8);
+load dataCompiled returnsSpanish dataTFYAut fieldsTFYAut
+dataTFYAut = dataTFYAut(4:end,:);
+returnsSpanish = returnsSpanish(4:end);
+labelX = [.7, 8.3, .7, 2.25];
+figure(1)
+    clf
+for iP = 1:4
+    subplot(2,2,iP)
+    scatterCC(dataTFYAut(:,iP),returnsSpanish,colours(iP+1,:),labelX(iP),8)
+    title([strcat("Spanish returns & ",fieldsTFYAut(iP));"2006 - 2019"])
+    xlabel(fieldsTFYAut(iP))
+    ylabel('Spanish chum returns')
+end
 
 
 
