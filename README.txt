@@ -34,8 +34,8 @@ five sections:
 5: The geodatabase
 	This is a compressed .gdb file, readable in a GIS of your choice, which shows 
 	the track of Spanish Bank Creek, all the way up past Belmont & coho release. 
-	Past the top of this map is impenetrable jungle; the fish don't go up there, so
-	neither	did we.
+	Past the top of this map is an impenetrable jungle; the fish don't go up there, 
+	so neither did we.
 	
 All the data we received is here, with one exception: West Van's returns. John 
 Barker is super helpful & will give you the data if you ask, but he doesn't like it 
