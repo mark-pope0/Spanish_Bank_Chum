@@ -1,6 +1,6 @@
 Hello! Contained in this folder are a number of files -- code, data, and figures -- 
 related to the analysis of chum returns to Spanish Bank Creek. They are divided into 
-four sections:
+five sections:
 
 1: The core data & analysis
 	This is all written in Matlab, and is the stuff that I actually used to do the 
@@ -27,19 +27,25 @@ four sections:
 	This is all the core data, but encoded in .csv format for your non-proprietary 
 	convenience! SOURCES.txt refers to the columns in this file.
 	
-4: Figures
+4: The figures
 	In the event that you don't want to re-generate all the figures, here are the 
 	ones that were used in the report, plus some extras.
 	
+5: The geodatabase
+	This is a compressed .gdb file, readable in a GIS of your choice, which shows 
+	the track of Spanish Bank Creek, all the way up past Belmont & coho release. 
+	Past the top of this map is impenetrable jungle; the fish don't go up there, so
+	neither	did we.
+	
 All the data we received is here, with one exception: West Van's returns. John 
 Barker is super helpful & will give you the data if you ask, but he doesn't like it 
-being spread around, because developers have used it as justification for trashing 
+being spread around because developers have used it as justification for trashing 
 the "unimportant" streams in the past.
 
 If you need to contact me, just ask the Scarths, Michael Lipsen, or Tara Ivanochko; 
 they'll send you my way. I hope this stuff comes in useful for you.
 
 Happy coding,
-- Mark Pope, 16 April 2021
+- Mark Pope, 18 April 2021
 
 
